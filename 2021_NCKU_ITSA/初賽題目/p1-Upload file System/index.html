@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Online Upload Image System</title>
+</head>
+<body>
+    <div class="environment">
+        <form class="form_selection" action="./action_page.php" enctype="multipart/form-data">
+            <input type="file" id="img_file" name="img_file" multiple>            
+            <label for="img_file">file names: <span class="file_name">0</span></label>            
+            <label for="img_file">selected files:<span class="selected_files">0</span>;</label>            
+            <label for="img_file">total size:<span class="total_size">0</span></label>            
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
